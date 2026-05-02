@@ -1,0 +1,20 @@
+[
+  {
+    "id": "15f518e5-46b1-4b98-9b0c-59e2dff4793d",
+    "createdAt": "2026-04-29T16:43:51.372Z",
+    "status": "Pending",
+    "name": "Shivaprasad Sapare",
+    "phone": "9380309188",
+    "email": "shivaprasad.sapare@tandemloop.in",
+    "city": "gadag",
+    "state": "Karnataka",
+    "company": "",
+    "machine": "Cart Checkout",
+    "notes": "test",
+    "products": [
+      "V3 Roti Making Machine x1"
+    ],
+    "totalExcl": 33898,
+    "totalIncl": 40000
+  }
+]
