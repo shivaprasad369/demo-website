@@ -365,7 +365,7 @@ export default function AdminDashboard() {
                               <td><a href={`tel:${e.phone}`} style={{color:'#c8860a',fontWeight:700,textDecoration:'none'}}>{e.phone}</a></td>
                               <td style={{fontSize:12}}>{[e.city,e.state].filter(Boolean).join(', ')||'—'}</td>
                               <td style={{fontSize:12}}>{e.machine||'—'}</td>
-                              <td style={{fontSize:12,maxWidth:160}}>{(e.notes||e.message||'—').slice(0,70)}</td>
+                              <td style={{fontSize:12,maxWidth:160}}>{(e.notes||'—').slice(0,70)}</td>
                               <td>
                                 <span className={`badge ${e.status==='Contacted'?'badge-contacted':'badge-pending'}`}>
                                   {e.status==='Contacted'?<FaCheck size={8}/>:<FaClock size={8}/>} {e.status}
